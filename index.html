@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="stylesheet" href="./src/assets/styles/style.css">
+</head>
+<body>
+  <section class="container">
+    <div class="boxtarjeta">  
+      <div class="boximg">
+        <img src="./src/assets/images/illustration-hero.svg" alt="hero">
+      </div>
+      <div class="boxhead">
+        <p class="text">
+          Order Summary  
+        </p>
+        <p class="text">
+          You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!
+        </p>
+      </div>
+      <div class="boxvalue">
+        <div class="value">
+        </div>
+        <div class="value">
+          <p class="valuetext">
+            Annual Plan <br>
+            <span class="valuetext">$59.99/year</span> 
+          </p>
+        </div>
+        <div class="value">
+          <a href="#" class="change" onclick="changeState(this)">Change</a>
+        </div>
+      </div>
+      <div class="boxboton">
+        <div class="boton">
+          <button class="btn" onclick="desactivar(this)" type="button">
+            Proceed to Payment
+          </button>
+        </div>
+        <div class="boton">
+          <a href="#" id="cancel" onclick="cancelOrder(this)">Cancel Order</a> 
+        </div>    
+      </div>
+    </div>
+ </section>
+ <script src="./src/app/JS/script.js"></script>
+</body>
+</html>
